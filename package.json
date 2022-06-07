@@ -1,0 +1,19 @@
+{
+  "name": "customerregistry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "compile-descriptor customer_api.proto customer_domain.proto",
+    "pretest": "npm run build",
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+
