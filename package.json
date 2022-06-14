@@ -6,14 +6,13 @@
   "scripts": {
     "build": "compile-descriptor customer_api.proto customer_domain.proto",
     "pretest": "npm run build",
-    "test": "mocha",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@kalix-io/kalix-javascript-sdk": "^1.0.0-M8"
+  }
 }
-
-
-
-
